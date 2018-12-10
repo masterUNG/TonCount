@@ -22,5 +22,13 @@ export class AppComponent implements OnInit{
     
   }
 
+  // Controller For Click
+  myCountButton() {
+
+    console.log('You Click Button');
+    this.myNumber += 1;
+
+  }
+
 
 } // Main Class
